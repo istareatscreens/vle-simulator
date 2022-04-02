@@ -16,6 +16,8 @@ It solves three cases:
 
 Binary interaction parameters are calculated using semi-emperical models see References.
 
+Validation was done using unisim.
+
 ## VLE Implementation:
 
 ![](docs/flowchart.png)
