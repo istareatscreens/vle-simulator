@@ -1,0 +1,6 @@
+# build files
+bin
+
+# IDE
+.project
+.classpath
