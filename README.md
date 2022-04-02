@@ -1,4 +1,4 @@
-# Vapour-Liquid-Equilibrium Simulator (Flash simulator)
+# Vapour-Liquid Equilibrium Simulator (Flash simulator)
 
 This was my first venture into object oriented programming in Java back in 2018 a lifetime ago.
 
@@ -6,7 +6,7 @@ This was developed with no source control and with no knowledge of design patter
 
 ## Description
 
-This simulator uses Raoult's law, and Wilson and/or Standing Correlation and Peng Robinson equation of state to provide vapour liquid equilibrium compositions for both ideal (former) and non-ideal conditions (later) for varied polar and non-polar composition feeds.
+This simulator uses Raoult's law, and Wilson and/or Standing Correlation and Peng Robinson equation of state to provide vapour-liquid equilibrium compositions for both ideal (former) and non-ideal conditions (later) for varied polar and non-polar composition feeds.
 
 It solves three cases:
 
