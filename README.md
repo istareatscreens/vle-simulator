@@ -1,8 +1,6 @@
 # Vapour-Liquid Equilibrium Simulator (Flash simulator)
 
-This was my first venture into object oriented programming in Java back in 2018 a lifetime ago.
-
-This was developed with no source control and with no knowledge of design patterns.
+This was my first venture into object oriented programming in Java back in 2018, a lifetime ago. This was developed with no source control and with no knowledge of design patterns.
 
 ## Description
 
@@ -22,11 +20,13 @@ Validation was done using unisim.
 
 ![](docs/flowchart.png)
 
+## Equations
+
 ### Nomenclature
 
 ![](docs/nomenclature.png)
 
-## Governing Equations
+### Governing Equations
 
 ![](docs/geq1.png)
 ![](docs/geq2.png)
@@ -44,6 +44,20 @@ Validation was done using unisim.
 ![](docs/6.png)</br>
 ![](docs/7.png)</br>
 ![](docs/8.png)</br>
+
+### Numerical Methods
+
+#### Ridders Method
+
+Root finding method used to solve Rachford-Rice equation:
+
+![](docs/nm1.png)</br>
+
+#### Cardano's Method
+
+Root finding method for third degree polynomials. Used to solve the compressibility factor for Peng Robinson equation of state:
+
+![](docs/nm2.png)</br>
 
 ## Disclaimer
 
