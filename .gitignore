@@ -6,3 +6,6 @@ bin
 .classpath
 .settings
 .vscode
+
+# build files
+*.class
