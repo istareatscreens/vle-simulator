@@ -10,9 +10,9 @@ This simulator uses Raoult's law, and Wilson and/or Standing Correlation and Pen
 
 It solves three cases:
 
-- The flash vessel is isothermal and the heat entering the system is provided
-- Vessel temperature and inlet feed temperature provided
-- Feed temperature and vessel temparture provided
+- Uses an operating temperature, the tank pressure, the feed composition, and the feed flow rate to calculate the vapour and liquid outlet compositions and flow rates, and the amount of heat required to maintain the operating temperature specified
+- Uses the feed temperature, the tank pressure, the feed composition, and the feed flow rate to calculate the flash temperature of the mixture, the vapour and liquid outlet compositions as well as the outlet flow rates.
+- Uses the flash temperature, tank pressure, feed composition and feed flow rate to calculate the feed temperature, the vapour and liquid compositions and adiabatic flash flow rates
 
 Binary interaction parameters are calculated using semi-emperical models see References.
 
@@ -22,11 +22,17 @@ Validation was done using unisim.
 
 ![](docs/flowchart.png)
 
-## Equation Derivations
-
 ### Nomenclature
 
 ![](docs/nomenclature.png)
+
+## Governing Equations
+
+![](docs/geq1.png)
+![](docs/geq2.png)
+![](docs/geq3.png)
+![](docs/geq4.png)
+![](docs/geq5.png)
 
 ### Derivations
 
